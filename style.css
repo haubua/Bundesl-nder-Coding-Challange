@@ -1,0 +1,47 @@
+body {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content {
+    max-width: 1024px;
+    
+}
+
+.states {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.states a {
+    text-decoration: none;
+    color: black;
+}
+
+.state {
+    width: 291.33px;
+    padding: 10px;
+    margin: 5px;
+    border: 10px solid lightgray;
+}
+
+.filter {
+display: flex;
+
+}
+
+.filterCharacter{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+    min-width: 18px;
+    display: flex;
+    justify-content: center;
+}
